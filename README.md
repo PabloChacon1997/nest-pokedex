@@ -13,6 +13,10 @@ npm install
 ```
 npm i -g @nestjs/cli
 ```
+4. Reconstruir la base de datos con la semilla
+```
+http://localhost:3000/api/v2/seed
+```
 
 ## Stack Usado
 * MongoDB

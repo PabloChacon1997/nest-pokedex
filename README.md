@@ -13,7 +13,9 @@ npm install
 ```
 npm i -g @nestjs/cli
 ```
-4. Reconstruir la base de datos con la semilla
+4. Clonar el archivo ```.env.template``` y renombrar la copia a ```.env```
+5. Llenar los valores del ```.env```
+6. Reconstruir la base de datos con la semilla
 ```
 http://localhost:3000/api/v2/seed
 ```
